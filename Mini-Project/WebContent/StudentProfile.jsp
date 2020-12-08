@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>OES | Student Home</title>
+    <title>OEP | Student Home</title>
 
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -61,7 +61,7 @@
         <div class="jumbotron">
             <h1 style="color:blue">Welcome,</h1><br>
             <h2><%out.println(session.getAttribute("username")); %></h2>
-            <p class="lead">Please Select Options</p>
+            
             
             <center><a class="btn btn-lg btn-primary" href="ExamInstructions.jsp" role="button">Start Exam  &raquo;</a></center>
         </div>
